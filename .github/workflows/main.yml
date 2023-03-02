@@ -9,4 +9,11 @@ jobs:
       - uses: actions/checkout@v2 # Checkout repository
       - name: Get benchmark stats
         run: python benchmarks/get_benchmark_stats.py > benchmarks/readme.md # Script to parse benchmark data
+      - name: Commit Updates
+        run: git config --global user.email "ruidong@umich.edu"
+              && git config --global user.name "Rui Dong"
+              && git add . 
+              && git commit -m "Updating readme with updated results"
+              && git push origin master
+      
 
