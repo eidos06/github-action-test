@@ -3,9 +3,9 @@
 
 ## Overview
 
-| Total problems | 2 |
+| Total problems | 3 |
 | --- | --- |
-| Total queries | 8 |
+| Total queries | 12 |
       
 
 ## Details
@@ -14,5 +14,6 @@
 
 | Problem ID | Query numbers |      
 | --- | --- |      
+| 3 | 4 |
 | 1 | 5 |
 | 2 | 3 |
