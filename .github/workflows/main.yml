@@ -1,0 +1,13 @@
+name: Benchmark Stats
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 # Checkout repository
+      - name: Get benchmark stats
+        run: python benchmarks/get_benchmark_stats.py # Script to parse benchmark data
+      - name: Generate .md
+        run: python generate_readme.py > benchmarks/readme.md # Generate markdown
