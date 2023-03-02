@@ -16,6 +16,10 @@ jobs:
               && git config --global user.name "Rui Dong"
               && git add . 
               && git commit -m "Updating readme with updated results"
-              && git push origin main
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
       
 
