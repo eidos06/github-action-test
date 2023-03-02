@@ -14,6 +14,6 @@ jobs:
               && git config --global user.name "Rui Dong"
               && git add . 
               && git commit -m "Updating readme with updated results"
-              && git push origin master
+              && git push origin main
       
 
