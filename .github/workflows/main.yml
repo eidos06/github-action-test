@@ -12,6 +12,7 @@ jobs:
       - name: Commit Updates
         run: git config --global user.email "ruidong@umich.edu"
               && git config --global user.name "Rui Dong"
+              &&git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
               && git add . 
               && git commit -m "Updating readme with updated results"
               && git push origin main
