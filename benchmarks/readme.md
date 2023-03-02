@@ -1,14 +1,16 @@
+
 # Benchmark statistics
 
 ## Overview
 
-| Total problems | 2 |
+| Total problems | 0 |
 | --- | --- |
-| Total queries | 5 |
+| Total queries | 0 |
+      
 
 ## Details
 
 ### Detailed query numbers for each benchmark
 
-| Problem ID | Query numbers |
-| --- | --- |
+| Problem ID | Query numbers |      
+| --- | --- |      
